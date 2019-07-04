@@ -6,19 +6,17 @@ class WangyiSpider(scrapy.Spider):
 
     name = 'wangyi'
 
-
     def start_requests(self):
-        first_url = "http://c.m.163.com/nc/auto/list/5bmz6aG25bGx/10-20.html"
-        yield scrapy.Request(url=first_url, callback=self.parse, dont_filter=True)
-        for i in range(10, 20000, 10):
-            url = "https://3g.163.com /touch/reconstruct/article/list/BBM54PGAwangning/" + str(i + 1) + '-' + str(i + 10) + '.html'
+        # first_url = "http://c.m.163.com/nc/auto/list/5bmz6aG25bGx/0-10.html"
+        # yield scrapy.Request(url=first_url, callback=self.parse, dont_filter=True)
+        for i in range(0, 10, 10):
+            url = "http://c.m.163.com/nc/auto/list/5bmz6aG25bGx/" + str(i) + '-' + str(i + 10) + '.html'
+            print(url)
             yield scrapy.Request(url=url, callback=self.parse)
 
 
-
-
     def parse(self, response):
-        print response.text
+        print (response.text)
         # reData = re.post(qicheapi, headers=headers)
         # print(reData.text)
         text = json.loads(response.text)
@@ -41,8 +39,10 @@ class WangyiSpider(scrapy.Spider):
         # print response.body
         sel = Selector(response)
         content_div = sel.xpath('//div[@id="endText"]')
-        content = content_div.xpath('string(.)').extract()[0]
-
+        contents = ''
+        for content in content_div:
+            contents = contents+ content.xpath('string(.)').extract()[0]
+        print(contents.replace(" ","").strip().replace("\t",'').replace("\n",""))
 
 
 
