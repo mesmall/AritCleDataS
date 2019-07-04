@@ -30,3 +30,8 @@ scrapy startproject AritCleDataS
 cd AritCleDataS
 scrapy genspider example example.com
 scrapy genspider wangyi http://c.m.163.com/nc/auto/list/5bmz6aG25bGx/0-20.html
+
+
+git rm -r --cached . // 删除本地缓存
+git add . // 添加要提交的文件
+git commit -m 'update .gitignore' // 更新本地的缓存
