@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b17f5b59-b105-4600-8fb8-f89b1c9c2cfe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AritCleDataS/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AritCleDataS/readme.txt" afterPath="$PROJECT_DIR$/AritCleDataS/readme.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +27,7 @@
         <entry file="file://$PROJECT_DIR$/AritCleDataS/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -56,8 +54,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-75" />
-    <option name="y" value="69" />
+    <option name="x" value="79" />
+    <option name="y" value="62" />
     <option name="width" value="1239" />
     <option name="height" value="856" />
   </component>
@@ -128,7 +126,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-75" y="69" width="1239" height="856" extended-state="0" />
+    <frame x="79" y="62" width="1239" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -174,7 +172,7 @@
     <entry file="file://$PROJECT_DIR$/AritCleDataS/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
           <folding />
         </state>
       </provider>
