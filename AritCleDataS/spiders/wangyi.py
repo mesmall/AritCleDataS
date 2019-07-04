@@ -2,6 +2,7 @@
 import scrapy
 import json
 from scrapy.selector import Selector
+import os
 class WangyiSpider(scrapy.Spider):
 
     name = 'wangyi'
@@ -33,18 +34,30 @@ class WangyiSpider(scrapy.Spider):
                     count = count + 1
                     if ('lmodify' in info):
                         print(info['lmodify'])
+                    if(count == 15001):
+                        return
                     yield scrapy.Request(url=info['url_3w'], callback=self.parse_content)
 
-    def parse_content(self, response):
+    def parse_content(self,response):
+
         # print response.body
         sel = Selector(response)
         content_div = sel.xpath('//div[@id="endText"]')
         contents = ''
         for content in content_div:
             contents = contents+ content.xpath('string(.)').extract()[0]
-        print(contents.replace(" ","").strip().replace("\t",'').replace("\n",""))
-
-
-
+        contents = contents.replace(" ","").strip().replace("\t",'').replace("\n","").replace("版权声明：本文版权为网易汽车所有，转载请注明出处。","")
+        # title = sel.xpath('//div[@id="epContentLeft"]/h1[1]/text()').extract()
+        # contents = "汽车\t".join(title).join(contents)
+        # print(contents)
+        nowDir = os.path.dirname(os.path.abspath(__file__))
+        parentDir = os.path.dirname(os.path.abspath(nowDir))
+        dataDir = os.path.join(parentDir,'data')
+        wangyiDir = os.path.join(dataDir,"wangyi")
+        qiche = os.path.join(wangyiDir,"qiche.txt")
+        with open(qiche,'a+') as f:
+                print(contents.join("\n"))
+                f.write(contents.join("\n"))
+                print('写入成功！')
 
 
