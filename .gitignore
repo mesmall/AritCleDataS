@@ -1,0 +1,6 @@
+*.DS_Store
+*.pyc
+*.idea/*
+runner.sh
+*.png
+*.log
