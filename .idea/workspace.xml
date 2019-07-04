@@ -16,8 +16,8 @@
       <file leaf-file-name="wangyi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AritCleDataS/spiders/wangyi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -26,8 +26,8 @@
       <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AritCleDataS/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+            <state relative-caret-position="420">
+              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -54,8 +54,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="79" />
-    <option name="y" value="62" />
+    <option name="x" value="389" />
+    <option name="y" value="56" />
     <option name="width" value="1239" />
     <option name="height" value="856" />
   </component>
@@ -88,6 +88,12 @@
               <item name="AritCleDataS" type="b2602c69:ProjectViewProjectNode" />
               <item name="AritCleDataS" type="462c0819:PsiDirectoryNode" />
               <item name="AritCleDataS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AritCleDataS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AritCleDataS" type="462c0819:PsiDirectoryNode" />
+              <item name="AritCleDataS" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,7 +132,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="79" y="62" width="1239" height="856" extended-state="0" />
+    <frame x="389" y="56" width="1239" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -163,16 +169,16 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AritCleDataS/spiders/wangyi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AritCleDataS/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        <state relative-caret-position="420">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
           <folding />
         </state>
       </provider>

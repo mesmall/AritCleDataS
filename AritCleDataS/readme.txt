@@ -20,4 +20,13 @@ api
 精选 http://c.3g.163.com/nc/article/list/T1467284926140/0-20.html 
 
 
+#相关资料
 https://www.jianshu.com/p/c54e25349b77
+
+
+
+#项目创建
+scrapy startproject AritCleDataS
+cd AritCleDataS
+scrapy genspider example example.com
+scrapy genspider wangyi http://c.m.163.com/nc/auto/list/5bmz6aG25bGx/0-20.html
