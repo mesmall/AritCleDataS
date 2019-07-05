@@ -14,9 +14,10 @@ api
 教育：/touch/reconstruct/article/list/BA8FF5PRwangning/0-10.html 
 健康：/touch/reconstruct/article/list/BDC4QSV3wangning/0-10.html 
 旅游：/touch/reconstruct/article/list/BEO4GINLwangning/0-10.html 
+汽车 http://c.m.163.com/nc/auto/list/5bmz6aG25bGx/0-20.html
+
 视频：/touch/nc/api/video/recommend/Video_Recom/0-10.do?callback=videoList
-汽车 http://c.m.163.com/nc/auto/list/5bmz6aG25bGx/0-20.html 汽车
-头条  http://c.m.163.com/nc/article/headline/T1348647853363/0-40.html 头条 
+头条  http://c.m.163.com/nc/article/headline/T1348647853363/0-40.html
 精选 http://c.3g.163.com/nc/article/list/T1467284926140/0-20.html 
 
 
@@ -35,3 +36,6 @@ scrapy genspider wangyi http://c.m.163.com/nc/auto/list/5bmz6aG25bGx/0-20.html
 git rm -r --cached . // 删除本地缓存
 git add . // 添加要提交的文件
 git commit -m 'update .gitignore' // 更新本地的缓存
+
+
+wc -l 汽车.txt
